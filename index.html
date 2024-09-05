@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Trabalho Infantil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz sobre Trabalho Infantil</h1>
+    </header>
+    <main>
+        <div id="quiz-container">
+            <h2>Responda às perguntas abaixo:</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. Qual é uma das principais consequências negativas do trabalho infantil para o desenvolvimento das crianças?</p>
+                    <label><input type="radio" name="q1" value="a"> a) Aumento da capacidade de concentração em atividades escolares</label><br>
+                    <label><input type="radio" name="q1" value="b"> b) Melhora nas habilidades sociais e de comunicação</label><br>
+                    <label><input type="radio" name="q1" value="c"> c) Prejuízo no desenvolvimento físico e mental</label>
+                </div>
+
+                <div class="question">
+                    <p>2. Qual é a principal razão para que o trabalho infantil seja proibido em muitos países?</p>
+                    <label><input type="radio" name="q2" value="a"> a) Garantir que todas as crianças possam ganhar experiência profissional desde cedo</label><br>
+                    <label><input type="radio" name="q2" value="b"> b) Assegurar que as crianças tenham acesso à educação e ao desenvolvimento saudável</label><br>
+                    <label><input type="radio" name="q2" value="c"> c) Aumentar a produtividade econômica do país</label>
+                </div>
+
+                <div class="question">
+                    <p>3. Qual é um dos principais organismos internacionais que trabalha para erradicar o trabalho infantil?</p>
+                    <label><input type="radio" name="q3" value="a"> a) Organização Mundial da Saúde (OMS)</label><br>
+                    <label><input type="radio" name="q3" value="b"> b) Organização das Nações Unidas (ONU)</label><br>
+                    <label><input type="radio" name="q3" value="c"> c) Organização Internacional do Trabalho (OIT)</label>
+                </div>
+
+                <button type="button" onclick="checkAnswers()">Enviar Respostas</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
